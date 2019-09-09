@@ -5,5 +5,5 @@ python:
 install: "pip install --usser coverage"
 # com m and to run tests
 script:
-    -coverage run test_sut.py
-    -coverage report
+- coverage run test_sut.py
+- coverage report

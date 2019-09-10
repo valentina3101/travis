@@ -39,8 +39,6 @@ class TestSut(unittest.TestCase):
         sut.sumar=MagicMock(return_value= 2)
         a = sut.costototal(1,4)
         self.assertEqual(a, "El costo total es $2")
- 
-
     
     def test_supercalc(self):
         math.exp=MagicMock(return_value=2)
